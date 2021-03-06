@@ -1,5 +1,5 @@
 /*
-]=====> AIDIL GANSS
+]=====> Zii Bott
 */
 // ANAK ANJING PASTI YANG ATAS DI UBAH
 // NGOTAK KOMTOL
@@ -49,21 +49,21 @@ const { ind } = require('./language')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:AXCT ADMIN\n' 
+            + 'FN:LYNX ADMIN\n' 
             + 'ORG: Pengembang AXCT ;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=62895704959080:+62 895-7049-59080\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=:6288269711251+62 882-6971-1251\n' 
             + 'END:VCARD' 
 blocked = []   
 prefix = '#'
 limitawal = 20
 memberlimit = 0
-cr = 'IG:aidil.tipi\nYT:AIDIL TIPI'
+cr = 'IG: Lynx Tipi'
 
 /*
 ]=====> SETTINGS <=====[
 */
 const TobzKey = 'BotWeA'
-const VhtearKey = 'AIDILTIPI' 
+const VhtearKey = 'ZII BOTT' 
 const TechApi = '5BNIDH-1T0kPj-gWqG6q-sHtuHA-AWBSgZ'
 const ZeksApi = 'apivinz'
 const shizukaapi = 'itsmeiky633'
@@ -101,7 +101,7 @@ const antifirtex = JSON.parse(fs.readFileSync('./database/group/antifirtex.json'
 
 /*
 ♥THANKS TO♥
-AXCT BOT📍
+LYNX BOT📍
 RAMLAN CH📍
 AMPIBI GAMING📍
 FADHIL GRAPHY📍
@@ -313,7 +313,7 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `*WELCOME @${num.split('@')[0]}\👋*\n*Jangan Lupa Intro🤗*\n━━━━━━━━━━━━━━━━━━━━\n*➸ Nama:*\n*➸ Umur:*\n*➸ gender:*\n*➸ Askot:*\n━━━━━━━━━━━━━━━━━━━━\n*Note: KETIK ,HELP UNTUK MENU BOT*`
+				teks = `*WELCOME @${num.split('@')[0]}\👋*\n*Jangan Lupa Intro Tod🤗*\n━━━━━━━━━━━━━━━━━━━━\n*➸ Nama:*\n*➸ Umur:*\n*➸ gender:*\n*➸ Askot:*\n━━━━━━━━━━━━━━━━━━━━\n*Note: KETIK ,HELP UNTUK MENU BOT*`
 				let buff = await getBuffer(ppimg)
 				const bot = fs.readFileSync('./assets/bot');
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
@@ -548,9 +548,9 @@ client.on('group-participants-update', async (anu) => {
 		        client.updatePresence(from, Presence.composing)
 		        if (mesejAnti.includes(",izinkak")) return reply("Iya kak jangan spam ya")
 		        var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-		        reply(`Maaf kak ${sender.split("@")[0]} Grup ini anti link, siap siap kamu di kick`)
+		        reply(`Maaf kak ${sender.split("@")[0]} Grup ini anti link, siap siap kamu di kick, makanya tod jgn main link!`)
 		        setTimeout( () => {
-			        client.groupRemove(from, [kic]).catch((e)=>{reply(`*AXCT  HARUS JADI ADMIN❗*`)})
+			        client.groupRemove(from, [kic]).catch((e)=>{reply(`*LYNX  HARUS JADI ADMIN❗*`)})
 		        }, 3000)
 		        setTimeout( () => {
 			        client.updatePresence(from, Presence.composing)
@@ -970,12 +970,12 @@ client.on('group-participants-update', async (anu) => {
                                 if (isLimit(sender)) return reply(ind.limitend(pusname))
 				client.updatePresence(from, Presence.composing) 
 				uptime = process.uptime()
-				reply(`Bot AXCT  Telah Aktif Selama\n*${kyun(uptime)}*`)
+				reply(`Bot LYNX  Telah Aktif Selama\n*${kyun(uptime)}*`)
 				break
 				case 'totaluser':
 					client.updatePresence(from, Presence.composing) 
 					if (!isGroup) return reply(ind.groupo())
-					teks = `╭────「 *TOTAL USER AXCT * 」\n`
+					teks = `╭────「 *TOTAL USER LYNX * 」\n`
 					no = 0
 					for (let hehehe of registered.json) {
 						no += 1
