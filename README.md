@@ -7,7 +7,7 @@
 ## Clone this project
 
 ```bash
-> git clone https://github.com/Axctbot/axctbotv1
+> git clone https://github.com/BottLynx17/LynxBot
 ```
 
 ## Install the dependencies:
@@ -129,12 +129,12 @@ you've just cloned!!
 * [`Fadhil Graphy`](https://github.com/MrK4ZUT0)
 
 
-## Sosmed Admin
-* [`WhatsApp`](wa.me/62895704959080)
-* [`Instagram`](https://instagram.com/aidil.tipi)
-* [`Instagram`](https://instagram.com/okk.tipi)
-* [`Youtube`](https://youtube.com/c/AidilTipi)
+## Sosmed add
+* [`WhatsApp`](wa.me/088269711251)
+* [`Instagram`](https://instagram.com/lynx.tipi)
+* [`Instagram`](https://instagram.com/lynx.tipi)
+* [`Youtube`](ga ada)
 ### Donate
-* [`Gopay : +6289513837054`]
-* [`Dana   : +6289513837054`]
-* [`Pulsa  : +6289513837054`]
+* [`Gopay : 088269711251`]
+* [`Dana   : 088269711251`]
+* [`Pulsa  : 088269711251`]
