@@ -50,7 +50,7 @@ const { ind } = require('./language')
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
             + 'FN:LYNX ADMIN\n' 
-            + 'ORG: Pengembang AXCT ;\n' 
+            + 'ORG: Pengembang LYNX ;\n' 
             + 'TEL;type=CELL;type=VOICE;waid=:6288269711251+62 882-6971-1251\n' 
             + 'END:VCARD' 
 blocked = []   
@@ -981,7 +981,7 @@ client.on('group-participants-update', async (anu) => {
 						no += 1
 						teks += `[${no.toString()}] @${hehehe.split('@')[0]}\n`
 					}
-					teks += `│+ Total Pengguna : ${registered.json.length}\n╰──────*⎿ *AXCT  BOT* ⏋*────`
+					teks += `│+ Total Pengguna : ${registered.json.length}\n╰──────*⎿ *LYNX  BOT* ⏋*────`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": Registered}})
 					break
 				case 'nsfwblowjob':
@@ -2232,10 +2232,10 @@ Rᴏᴍᴀɴᴄᴇ
 				break
 				case 'p':
 				case 'asli':
-					client.sendMessage(from, 'AXCT Gans', text, { quoted: mek })
+					client.sendMessage(from, 'LYNX BOTT', text, { quoted: mek })
 					break
 				case 'rulestext':
-                                        client.sendMessage(from, '*📍RULES BOT AXCT 📍*\n*┏━━━━━━━━━━━━━━━━━━━━━*\n*┃*\n*┣➣Patuhi Aturan ya🍁*\n*┃*\n*┗━━━━━━━━━━━━━━━━━━━━━*\n*[1]DILARANG SPAM❌*\n*[2]DILARANG VC\NELPON❌*\n*[3]DILARANG MEMBANDING BOT❌*\n*[4]WAJIB SV NOMOR OWNER⭕*\n*[5]DILARANG NGATAIN BOT❌*\n*━━━━━━━━━━━━━━━━━━━━*\n*_NOTE:JANGAN LUPA DONASI DENGAN KETIK ,DONASI_*', text, { quoted: mek })
+                                        client.sendMessage(from, '*📍RULES BOT LYNX 📍*\n*┏━━━━━━━━━━━━━━━━━━━━━*\n*┃*\n*┣➣Patuhi Aturan ya🍁*\n*┃*\n*┗━━━━━━━━━━━━━━━━━━━━━*\n*[1]DILARANG SPAM❌*\n*[2]DILARANG VC\NELPON❌*\n*[3]DILARANG MEMBANDING BOT❌*\n*[4]WAJIB SV NOMOR OWNER⭕*\n*[5]DILARANG NGATAIN BOT❌*\n*━━━━━━━━━━━━━━━━━━━━*\n*_NOTE:JANGAN LUPA DONASI DENGAN KETIK ,DONASI_*', text, { quoted: mek })
                                         break
 				if (text.includes('P')){
                   client.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text, {quoted: mek});
