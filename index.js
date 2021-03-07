@@ -51,7 +51,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:LYNX ADMIN\n' 
             + 'ORG: Pengembang LYNX ;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=:6288269711251+62 882-6971-1251\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=:6288269711251:+62 882-6971-1251\n' 
             + 'END:VCARD' 
 blocked = []   
 prefix = '#'
@@ -289,7 +289,11 @@ function kyun(seconds){
 const client = new WAConnection()
    client.on('qr', qr => {
    qrcode.generate(qr, { small: true })
-   console.log(color('🍁','white'),color('♥','red'),color('🍁','white'),color('JANGAN LUPA SUBS CHANEL','white'),color('YOU','red'),color('TUBE','white'),color('AIDIL TIPI','yellow'))
+   console.log(color('🍁','white'),color('♥','red'),color('🍁','white'),color('JANGAN LUPA SUBS CHANEL','white'),color('YOU','red'),color('TUBE','white'),color('LYNX TIPI
+   
+   
+   
+   ','yellow'))
 })
 
 client.on('credentials-updated', () => {
